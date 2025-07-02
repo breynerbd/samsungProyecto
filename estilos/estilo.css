@@ -82,3 +82,53 @@ header.scroll .logo {
   filter: brightness(1);
   padding: 4px;
 }
+
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  flex-wrap: wrap;
+}
+
+.redes ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.redes li {
+  background-color: white;
+  height: 30px;
+  border-radius: 999px;
+  margin: 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.redes a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 999px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.redes a:hover {
+  background-color: black;
+  color: white;
+}
+
+.perfil-icon {
+  transition: 0.3s;
+  height: 30px;
+}
