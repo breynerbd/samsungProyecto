@@ -189,3 +189,64 @@ button:hover {
     background-color: black;
     color: white;
 }
+
+.footer {
+  background-color: black;
+  color: #f1f1f1;
+  padding: 40px 20px 10px;
+}
+
+.contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.informacion {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px 10px;
+}
+
+.informacion h3,
+.informacion h4 {
+  color: white;
+  font-family: 'SamsungSharpSans-medium';
+  margin-bottom: 15px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 5px;
+}
+
+.informacion p,
+.informacion li {
+  font-size: 14px;
+  font-family: 'SamsungSharpSans-normal';
+  line-height: 1.6;
+  list-style: none;
+}
+
+.informacion li{
+  margin-left: -40px;
+}
+
+.informacion a {
+  color: white;
+  text-decoration: none;
+}
+
+.informacion a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.derechos {
+  text-align: center;
+  border-top: 1px solid grey;
+  padding-top: 15px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: white;
+  font-family: 'SamsungSharpSans-normal', arial, sans-serif;
+}
