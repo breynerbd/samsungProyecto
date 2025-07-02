@@ -132,3 +132,60 @@ header.scroll .logo {
   transition: 0.3s;
   height: 30px;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px;
+    margin-bottom: 200px;
+    gap: 80px;
+}
+
+.productosSam {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.productosSam:hover {
+    transform: scale(1.03);
+}
+
+.productosSam img {
+    max-width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid #eee;
+    border: 0;
+    padding: 0;
+}
+
+.informac {
+    padding: 15px;
+}
+
+.informac h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
