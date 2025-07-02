@@ -18,3 +18,67 @@
   font-weight: bold;
   font-style: normal;
 }
+
+body {
+    font-family: 'SamsungSharpSans', arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    padding-top: 40px;
+}
+
+header {
+  background-color: white;
+  color: black;
+  padding: 6px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s, color 0.3s, padding 0.3s;
+}
+
+header.scroll {
+  background-color: black;
+  color: white;
+}
+
+header.scroll .redes a {
+  color: white;
+}
+header.scroll .redes li {
+  background-color: black;
+}
+header.scroll .redes a:hover {
+  background-color: white;
+  color: black;
+}
+
+header.scroll .redes a {
+  color: white;
+}
+header.scroll .redes li {
+  background-color: black;
+}
+header.scroll .redes a:hover {
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  transition: filter 0.3s, background-color 0.3s, padding 0.3s;
+  border-radius: 6px;
+}
+
+header:not(.scroll) .logo {
+  filter: brightness(0);
+  background-color: transparent;
+  padding: 0;
+}
+
+header.scroll .logo {
+  filter: brightness(1);
+  padding: 4px;
+}
