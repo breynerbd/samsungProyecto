@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'SamsungSharpSans-medium';
+  src: url('../fuentes/samsungsharpsans-medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SamsungSharpSans-normal';
+  src: url('../fuentes/samsungsharpsans.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SamsungSharpSans';
+  src: url('../fuentes/samsungsharpsans-bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
